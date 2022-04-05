@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Reconhecimento Humano</title>
+
+        <script defer src="js/face-api.min.js"></script>
+        <script defer src="js/script-video.js"></script>  
+        <script defer src="js/script-audio.js"></script>  
+
+        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    <body>
+        <main>
+            <div>
+                <video class="video" id="video" width="720" height="560" muted></video>
+            </div>
+            
+            <div class="div-audio">
+                <textarea id="textarea" disabled></textarea>
+                <div class="div-button">
+                    <button id="enable">Habilitar Aúdio</button>
+                    <button id="disable">Desativar Aúdio</button>
+                    <button id="clear">Limpar Campo</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
