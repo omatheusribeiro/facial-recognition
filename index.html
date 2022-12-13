@@ -1,31 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reconhecimento Facial</title>
+    <link rel="stylesheet" href="css/style.css" />
 
-        <title>Reconhecimento Humano</title>
+    <script defer src="js/face-api.min.js"></script>
+    <script defer src="js/script-video.js"></script>  
+  </head>
+  <body>
+    <main>
+      <div class="big-wrapper light">
+        <img src="./assets/shape.png" alt="" class="shape" />
 
-        <script defer src="js/face-api.min.js"></script>
-        <script defer src="js/script-video.js"></script>  
-        <script defer src="js/script-audio.js"></script>  
-
-        <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-    <body>
-        <main>
-            <div>
-                <video class="video" id="video" width="720" height="560" muted></video>
+        <header>
+          <div class="container">
+            <div class="logo">
+              <img src="./assets/logo.png" alt="Logo" />
+              <h3>IA - Reconhecimento Facial</h3>
             </div>
-            
-            <div class="div-audio">
-                <textarea id="textarea" disabled></textarea>
-                <div class="div-button">
-                    <button id="enable">Habilitar Aúdio</button>
-                    <button id="disable">Desativar Aúdio</button>
-                    <button id="clear">Limpar Campo</button>
-                </div>
+
+            <div class="links">
+              <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#" class="btn">Exibir Logs</a></li>
+              </ul>
             </div>
-        </main>
-    </body>
+
+            <div class="overlay"></div>
+
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </header>
+
+        <div class="showcase-area">
+          <div class="container">
+            <div class="left">
+              <div class="big-title">
+                <h1>Descomplicando o complicado,</h1>
+                <h1>tenha a experiência de utilizar uma IA facial.</h1>
+              </div>
+              <p class="text">
+                Neste projeto você poderá utilizar uma inteligência artificial capaz de reconhecer seu rosto, expressões faciais e idade!
+              </p>
+              <div class="cta">
+                <a href="#" class="btn">Comece Agora</a>
+              </div>
+            </div>
+
+            <div class="div-video">
+                <video class="video" id="video" muted></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-area">
+          <div class="container">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- JavaScript Files -->
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
