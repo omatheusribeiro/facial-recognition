@@ -42,7 +42,7 @@ function toggleAnimation() {
 }
 
 function events() {
-  toggle_btn.addEventListener("click", toggleAnimation);
+  //toggle_btn.addEventListener("click", toggleAnimation);
   hamburger_menu.addEventListener("click", () => {
     big_wrapper.classList.toggle("active");
   });

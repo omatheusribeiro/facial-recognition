@@ -102,7 +102,7 @@ header .container {
     justify-content: center;
 }
 
-#video{
+.video{
     width: 500px;
     background: #000;
     border-radius: 10px;
@@ -294,6 +294,10 @@ header .container {
   animation: appear 1s 1 both;
 }
 
+canvas {
+  position: absolute;
+}
+
 @keyframes appear {
   0% {
     clip-path: circle(30% at -25% -25%);
@@ -308,7 +312,7 @@ header .container {
     display: flex;
   }
 
-  #video{
+  .video{
     width: 350px;
   }
 

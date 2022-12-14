@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reconhecimento Facial</title>
     <link rel="stylesheet" href="css/style.css" />
-
-    <script defer src="js/face-api.min.js"></script>
-    <script defer src="js/script-video.js"></script>  
   </head>
   <body>
     <main>
@@ -55,8 +52,12 @@
               </div>
             </div>
 
-            <div class="div-video">
-                <video class="video" id="video" muted></video>
+            <div class="div-video" id="div-video">
+                <video 
+                    autoplay
+                    class="video" 
+                    id="cam"
+                    muted></video>
             </div>
           </div>
         </div>
@@ -72,5 +73,7 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./lib/face-api/face-api.min.js"></script>
+    <script src="./js/script-video.js"></script>
   </body>
 </html>
