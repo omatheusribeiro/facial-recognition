@@ -54,7 +54,6 @@ cam.addEventListener('play', async () => {
     }
     const labels = await loadLabels()
     faceapi.matchDimensions(canvas, canvasSize);
-    debugger
     const div = document.getElementById('div-video')
     div.appendChild(canvas);
     setInterval(async () => {
