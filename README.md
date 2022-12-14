@@ -16,14 +16,13 @@
       Essa aplicação trata-se de uma inteligência artificial capaz de entender expressões faciais, idade estimada e utilizar técnica de reconhecimento facial.
     </td>
     <td align="center">
-      Imagem demonstrativa de reconhecimento facial.
-      <img src="https://user-images.githubusercontent.com/31125521/57224752-ad3dc080-700a-11e9-85b9-1357b9f9bca4.gif" alt="Imagem demonstrativa de reconhecimento facial" />
+      Imagem demonstrativa do projeto.
+      <img src="https://uploaddeimagens.com.br/images/004/259/749/full/Captura_de_tela_2022-12-13_225639.png?1670983474" alt="Imagem demonstrativa de reconhecimento facial" />
     </td>
   </tr>
 </table>
 
-## Aplicação Construída
-<img src="https://uploaddeimagens.com.br/images/004/259/749/full/Captura_de_tela_2022-12-13_225639.png?1670983474" alt="Imagem demonstrativa de reconhecimento facial" />
+## Tecnologias usadas
 
 - [JavaScript]()
 - [FaceAPI](https://github.com/justadudewhohacks/face-api.js/)
