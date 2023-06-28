@@ -1,39 +1,64 @@
-<h1 align="center">
-  :robot: Reconhecimento Facial :robot:
-</h1>
+# Face Recognition System
 
-<div align="center">
+Este repositório contém um sistema de reconhecimento de expressões faciais, reconhecimento facial e reconhecimento de idade implementado em JavaScript utilizando a biblioteca face-api.
 
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-![JavaScript](https://img.shields.io/badge/-javascript-05122A?style=flat&logo=javascript)&nbsp;
+## Descrição
 
-</div>
+O objetivo deste projeto é demonstrar a utilização da biblioteca face-api para realizar reconhecimento de expressões faciais, reconhecimento facial e reconhecimento de idade em imagens ou vídeos. A face-api é uma poderosa biblioteca JavaScript de código aberto que permite a detecção e análise de rostos em tempo real.
 
-<table border="0">
-  <tr>
-    <td align="center">
-      Essa aplicação trata-se de uma inteligência artificial capaz de entender expressões faciais, idade estimada e utilizar técnica de reconhecimento facial.
-    </td>
-    <td align="center">
-      Imagem demonstrativa do projeto.
-      <img src="https://uploaddeimagens.com.br/images/004/259/749/full/Captura_de_tela_2022-12-13_225639.png?1670983474" alt="Imagem demonstrativa de reconhecimento facial" />
-    </td>
-  </tr>
-</table>
+## Funcionalidades
+O sistema oferece as seguintes funcionalidades:
 
-## Tecnologias usadas
+- Detecção de rosto: Identifica e localiza rostos em imagens ou vídeos.
+  
+- Reconhecimento de expressões faciais: Reconhece e classifica as expressões faciais dos rostos detectados em categorias como alegria, tristeza, surpresa, raiva, entre outras.
+  
+- Reconhecimento facial: Realiza o reconhecimento facial comparando rostos detectados com rostos previamente cadastrados, fornecendo uma correspondência.
+  
+- Reconhecimento de idade: Estima a idade aproximada de uma pessoa com base em seu rosto.
 
-- [JavaScript]()
-- [FaceAPI](https://github.com/justadudewhohacks/face-api.js/)
+## Instalação
 
-## Começo rápido
+- Clone este repositório em sua máquina local:
 
-1. Fork do projeto
-2. Clonar o projeto utilizando `git clone git@github.com:<SEU-USUÁRIO>/object-recognition.git`
-3. Iniciar o projeto utilizando o Live Server
-4. Alterar o nome da pasta "Matheus Ribeiro" para o seu nome no diretório "lib/face-api/labels"
-5. Alterar o nome da pasta "Matheus Ribeiro" para o seu nome na linha 25 do arquivo script-video.js
-6. Incluir uma foto sua com o nome "1.jpg" no diretório "lib/face-api/labels/seu-nome"
+```git
+git clone https://github.com/omatheusribeiro/facial-recognition.git
+```
 
-### Feito com :heart: para a incrível comunidade de open-source!
+- Acesse o diretório do projeto:
+
+```
+cd facial-recognition
+```
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+
+1. Fork este repositório.
+2. Crie uma branch para a sua contribuição:
+
+```git
+git checkout -b minha-contribuicao
+```
+
+3. Faça as alterações desejadas e faça commit das mesmas:
+
+```git
+git commit -m "Minha contribuição"
+```
+
+4. Envie suas alterações para o seu fork:
+
+```git
+git push origin minha-contribuicao
+```
+5. Abra um Pull Request neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a BSD 3-Clause License.
+
+## Agradecimentos
+
+Agradecemos à biblioteca face-api pela sua contribuição para este projeto.
