@@ -1,64 +1,66 @@
 # Face Recognition System
 
-Este repositório contém um sistema de reconhecimento de expressões faciais, reconhecimento facial e reconhecimento de idade implementado em JavaScript utilizando a biblioteca face-api.
+This repository contains a system for facial expression recognition, facial recognition, and age estimation implemented in JavaScript using the face-api library.
 
-## Descrição
+## Description
 
-O objetivo deste projeto é demonstrar a utilização da biblioteca face-api para realizar reconhecimento de expressões faciais, reconhecimento facial e reconhecimento de idade em imagens ou vídeos. A face-api é uma poderosa biblioteca JavaScript de código aberto que permite a detecção e análise de rostos em tempo real.
+The aim of this project is to demonstrate the usage of the face-api library to perform facial expression recognition, facial recognition, and age estimation in images or videos. face-api is a powerful open-source JavaScript library that allows real-time face detection and analysis.
 
-## Funcionalidades
-O sistema oferece as seguintes funcionalidades:
+## Features
 
-- Detecção de rosto: Identifica e localiza rostos em imagens ou vídeos.
+The system offers the following features:
+
+- Face Detection: Identifies and locates faces in images or videos.
   
-- Reconhecimento de expressões faciais: Reconhece e classifica as expressões faciais dos rostos detectados em categorias como alegria, tristeza, surpresa, raiva, entre outras.
+- Facial Expression Recognition: Recognizes and categorizes the facial expressions of detected faces into categories such as joy, sadness, surprise, anger, and more.
   
-- Reconhecimento facial: Realiza o reconhecimento facial comparando rostos detectados com rostos previamente cadastrados, fornecendo uma correspondência.
+- Facial Recognition: Performs facial recognition by comparing detected faces with previously registered faces, providing a match.
   
-- Reconhecimento de idade: Estima a idade aproximada de uma pessoa com base em seu rosto.
+- Age Estimation: Estimates the approximate age of a person based on their face.
 
-## Instalação
+## Installation
 
-- Clone este repositório em sua máquina local:
+- Clone this repository to your local machine:
 
 ```git
 git clone https://github.com/omatheusribeiro/facial-recognition.git
 ```
 
-- Acesse o diretório do projeto:
+- Navigate to the project directory:
 
 ```
 cd facial-recognition
 ```
 
-## Contribuição
+## Contribution
 
-Contribuições são bem-vindas! Se você quiser contribuir com este projeto, siga as etapas abaixo:
+Contributions are welcome! If you wish to contribute to this project, follow the steps below:
 
-1. Fork este repositório.
-2. Crie uma branch para a sua contribuição:
-
-```git
-git checkout -b minha-contribuicao
-```
-
-3. Faça as alterações desejadas e faça commit das mesmas:
+1. Fork this repository.
+2. Create a branch for your contribution:
 
 ```git
-git commit -m "Minha contribuição"
+git checkout -b my-contribution
 ```
 
-4. Envie suas alterações para o seu fork:
+3. Make the desired changes and commit them:
 
 ```git
-git push origin minha-contribuicao
+git commit -m "My contribution"
 ```
-5. Abra um Pull Request neste repositório.
 
-## Licença
+4. Push your changes to your fork:
 
-Este projeto está licenciado sob a BSD 3-Clause License.
+```git
+git push origin my-contribution
+```
 
-## Agradecimentos
+5. Open a Pull Request in this repository.
 
-Agradecemos à biblioteca face-api pela sua contribuição para este projeto.
+## License
+
+This project is licensed under the BSD 3-Clause License.
+
+## Acknowledgments
+
+We thank the face-api library for its contribution to this project.
