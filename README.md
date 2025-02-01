@@ -1,66 +1,73 @@
-# Face Recognition System
+# 🤖 Facial Recognition System
 
-This repository contains a system for facial expression recognition, facial recognition, and age estimation implemented in JavaScript using the face-api library.
+## 📌 Overview
+The **Facial Recognition** project is a powerful system designed to detect facial expressions, recognize faces, and estimate age using the **face-api** library. 🚀
 
-## Description
+This repository contains an implementation of:
 
-The aim of this project is to demonstrate the usage of the face-api library to perform facial expression recognition, facial recognition, and age estimation in images or videos. face-api is a powerful open-source JavaScript library that allows real-time face detection and analysis.
+✅ **Facial Expression Recognition** 😊😡😢  
+✅ **Facial Recognition** 🧑🔍  
+✅ **Age Estimation** 🎯
 
-## Features
+## 📝 Description
+The aim of this project is to demonstrate the usage of the **face-api** library to perform facial expression recognition, facial recognition, and age estimation in images or videos. **face-api** is an open-source JavaScript library that enables real-time face detection and analysis.
 
-The system offers the following features:
+## 🏗️ Project Structure
+```
+facial-recognition
+├── assets/             # Assets such as images or models
+├── css/
+│   └── styles.css      # CSS for styling the interface
+├── js/
+│   └── app.js          # JavaScript logic for face detection and analysis
+├── lib/
+│   └── face-api/       # face-api library files
+└── index.html          # Main HTML file
+```
 
-- Face Detection: Identifies and locates faces in images or videos.
-  
-- Facial Expression Recognition: Recognizes and categorizes the facial expressions of detected faces into categories such as joy, sadness, surprise, anger, and more.
-  
-- Facial Recognition: Performs facial recognition by comparing detected faces with previously registered faces, providing a match.
-  
-- Age Estimation: Estimates the approximate age of a person based on their face.
+## 🚀 Getting Started
 
-## Installation
+### 📋 Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (optional, for local server setup)
+- Modern web browser (Chrome, Firefox, etc.)
+- Live Server Extension for VS Code (recommended) ⚡
 
-- Clone this repository to your local machine:
-
-```git
+### 🔧 Installation
+```bash
+# Clone the repository
 git clone https://github.com/omatheusribeiro/facial-recognition.git
-```
-
-- Navigate to the project directory:
-
-```
 cd facial-recognition
 ```
 
-## Contribution
+### ▶️ Running the Project
+Simply open the `index.html` file in your preferred browser. 🌐
 
-Contributions are welcome! If you wish to contribute to this project, follow the steps below:
+Or, if you prefer using a local server:
+```bash
+# Using Live Server in VS Code
+# Right-click on index.html and select 'Open with Live Server'
 
-1. Fork this repository.
-2. Create a branch for your contribution:
+# Using a simple Python server
+python -m http.server
 
-```git
-git checkout -b my-contribution
+# Or using Node.js
+npx http-server
 ```
+Then go to: **http://localhost:8000/** 🚀
 
-3. Make the desired changes and commit them:
+## ⚙️ How It Works
+1. Upload an image or enable your webcam.
+2. The system detects faces in real-time.
+3. It analyzes facial features to identify expressions, recognize identities, and estimate age.
 
-```git
-git commit -m "My contribution"
-```
+## 🛠️ Technologies Used
+- **HTML & CSS**
+- **JavaScript & TypeScript**
+- **face-api.js** (for facial recognition and analysis)
 
-4. Push your changes to your fork:
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the project and submit pull requests.
 
-```git
-git push origin my-contribution
-```
-
-5. Open a Pull Request in this repository.
-
-## License
-
+## 📜 License
 This project is licensed under the BSD 3-Clause License.
-
-## Acknowledgments
-
-We thank the face-api library for its contribution to this project.
