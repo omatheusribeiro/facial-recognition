@@ -98,8 +98,10 @@ header .container {
 }
 
 .div-video{
-    display: flex;
-    justify-content: center;
+  position: relative; /* Importante para o posicionamento do canvas */
+  display: inline-block;
+  width: 100%; /* Responsivo */
+  max-width: 640px; /* Limite máximo para manter o controle */
 }
 
 .video{
@@ -114,6 +116,11 @@ header .container {
     border-radius: 10px; 
     overflow: hidden; 
 } */
+
+#cam {
+  width: 100%; /* O vídeo se ajusta ao container */
+  height: auto;
+}
 
 .logo h3 {
   color: var(--darkTwo);
@@ -296,6 +303,11 @@ header .container {
 
 canvas {
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;  /* Ajuste responsivo */
+  height: 100%; /* Ajuste responsivo */
+  pointer-events: none; /* Garante que o canvas não bloqueie interações com o vídeo */
 }
 
 @keyframes appear {
@@ -330,6 +342,19 @@ canvas {
     justify-content: center;
     transform: translateX(100%);
     transition: 0.5s;
+  }
+
+  .big-title{
+    text-align: center;
+  }
+
+  .text{
+    text-align: center;
+  }
+
+  .cta{
+    justify-content: center;
+    display: flex;
   }
 
   .links ul {
