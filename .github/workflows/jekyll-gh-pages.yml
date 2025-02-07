@@ -49,3 +49,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Fix paths for GitHub Pages
+        run: |
+          find . -type f -name "*.js" -exec sed -i 's|src="lib/|src="/facial-recognition/lib/|g' {} +
