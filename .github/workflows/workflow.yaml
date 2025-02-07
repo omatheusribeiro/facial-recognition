@@ -18,9 +18,14 @@ jobs:
         git config --global user.name "Matheus Ribeiro"
         git config --global user.email "omatheusribeiro@outlook.com"
 
+    - name: Fix paths for GitHub Pages
+      run: |
+        find . -type f -name "*.html" -exec sed -i 's|src="lib/|src="/facial-recognition/lib/|g' {} +
+        find . -type f -name "*.js" -exec sed -i 's|src="lib/|src="/facial-recognition/lib/|g' {} +
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./ 
+        publish_dir: ./
         nojekyll: true
