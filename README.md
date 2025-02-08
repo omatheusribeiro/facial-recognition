@@ -66,8 +66,5 @@ Then go to: **http://localhost:8000/** 🚀
 - **JavaScript & TypeScript**
 - **face-api.js** (for facial recognition and analysis)
 
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the project and submit pull requests.
-
 ## 📜 License
 This project is licensed under the BSD 3-Clause License.
