@@ -54,7 +54,7 @@ python -m http.server
 # Or using Node.js
 npx http-server
 ```
-Then go to: **http://localhost:8000/** 🚀
+Then go to: **http://127.0.0.1:5500/index.html** 🚀
 
 ## ⚙️ How It Works
 1. Upload an image or enable your webcam.
@@ -65,9 +65,6 @@ Then go to: **http://localhost:8000/** 🚀
 - **HTML & CSS**
 - **JavaScript & TypeScript**
 - **face-api.js** (for facial recognition and analysis)
-
-## 🤝 Contributing
-Contributions are welcome! Feel free to fork the project and submit pull requests.
 
 ## 📜 License
 This project is licensed under the BSD 3-Clause License.
