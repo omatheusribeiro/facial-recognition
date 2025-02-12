@@ -13,7 +13,7 @@ This repository contains an implementation of:
 The aim of this project is to demonstrate the usage of the **face-api** library to perform facial expression recognition, facial recognition, and age estimation in images or videos. **face-api** is an open-source JavaScript library that enables real-time face detection and analysis.
 
 ## 🏗️ Project Structure
-```
+``` 
 facial-recognition
 ├── assets/             # Assets such as images or models
 ├── css/
