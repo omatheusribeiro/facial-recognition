@@ -13,7 +13,7 @@ This repository contains an implementation of:
 The aim of this project is to demonstrate the usage of the **face-api** library to perform facial expression recognition, facial recognition, and age estimation in images or videos. **face-api** is an open-source JavaScript library that enables real-time face detection and analysis.
 
 ## 🏗️ Project Structure
-```
+``` 
 facial-recognition
 ├── assets/             # Assets such as images or models
 ├── css/
@@ -41,20 +41,26 @@ cd facial-recognition
 ```
 
 ### ▶️ Running the Project
-Simply open the `index.html` file in your preferred browser. 🌐
 
-Or, if you prefer using a local server:
+#### Using Live Server in VS Code (Recommended)
+1. Install the **Live Server** extension in VS Code:
+   - Open VS Code.
+   - Go to the Extensions tab (`Ctrl+Shift+X` or `Cmd+Shift+X` on Mac).
+   - Search for "Live Server" and install it.
+2. Open the project folder in VS Code.
+3. Right-click on `index.html` and select **'Open with Live Server'**.
+4. The project will open automatically in your browser at **http://127.0.0.1:5500/index.html** 🚀
+
+#### Alternative Methods
+If you prefer using a simple local server:
 ```bash
-# Using Live Server in VS Code
-# Right-click on index.html and select 'Open with Live Server'
-
 # Using a simple Python server
 python -m http.server
 
 # Or using Node.js
 npx http-server
 ```
-Then go to: **http://127.0.0.1:5500/index.html** 🚀
+Then go to: **http://127.0.0.1:8000/index.html** (or the displayed port).
 
 ## ⚙️ How It Works
 1. Upload an image or enable your webcam.
